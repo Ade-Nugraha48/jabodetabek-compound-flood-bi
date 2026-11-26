@@ -135,14 +135,10 @@ CREATE TABLE IF NOT EXISTS analytics_anomaly_logs (
     observation_id    INTEGER REFERENCES fact_compound_flood_observations(observation_id),
     location_id       INTEGER NOT NULL REFERENCES dim_location(location_id),
     time_id           INTEGER NOT NULL REFERENCES dim_time(time_id),
-    anomaly_type      VARCHAR NOT NULL,
     anomaly_score     DOUBLE NOT NULL,
     is_anomaly        BOOLEAN NOT NULL,
+    anomaly_feature   VARCHAR NOT NULL,
     detection_method  VARCHAR NOT NULL,
-    severity_level    VARCHAR NOT NULL,
-    trigger_metric    VARCHAR,
-    metric_value      DOUBLE,
-    notes             VARCHAR,
     detected_at       TIMESTAMP NOT NULL
 );
 

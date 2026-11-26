@@ -108,11 +108,10 @@ erDiagram
         INTEGER observation_id FK
         INTEGER location_id FK
         INTEGER time_id FK
-        VARCHAR anomaly_type
         DOUBLE anomaly_score
         BOOLEAN is_anomaly
+        VARCHAR anomaly_feature
         VARCHAR detection_method
-        VARCHAR severity_level
         TIMESTAMP detected_at
     }
 
