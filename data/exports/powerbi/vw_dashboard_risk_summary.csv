@@ -1,0 +1,349 @@
+kabupaten_kota,kecamatan,year,season,lat,long,is_coastal_zone,total_observations,total_banjir,total_compound_flood,avg_compound_risk_score
+bekasi,babelan,2022,Musim Hujan,-6.1257,107.0341,True,6,0.0,0.0,1.0517
+bekasi,babelan,2022,Musim Kemarau,-6.1257,107.0341,True,6,0.0,0.0,0.3567
+bekasi,bojongmangu,2022,Musim Hujan,-6.4389,107.1778,False,6,0.0,0.0,1.1417
+bekasi,bojongmangu,2022,Musim Kemarau,-6.4389,107.1778,False,6,0.0,0.0,0.4933
+bekasi,cabangbungin,2022,Musim Hujan,-6.0781,107.1363,True,6,0.0,0.0,1.0467
+bekasi,cabangbungin,2022,Musim Kemarau,-6.0781,107.1363,True,6,0.0,0.0,0.3567
+bekasi,cibarusah,2022,Musim Hujan,-6.434,107.1108,False,6,0.0,0.0,1.1467
+bekasi,cibarusah,2022,Musim Kemarau,-6.434,107.1108,False,6,0.0,0.0,0.5
+bekasi,cibitung,2022,Musim Hujan,-6.2357,107.1004,True,6,0.0,0.0,0.9983
+bekasi,cibitung,2022,Musim Kemarau,-6.2357,107.1004,True,6,0.0,0.0,0.3833
+bekasi,cikarangbarat,2022,Musim Hujan,-6.2973,107.0941,False,6,0.0,0.0,1.035
+bekasi,cikarangbarat,2022,Musim Kemarau,-6.2973,107.0941,False,6,0.0,0.0,0.4117
+bekasi,cikarangpusat,2022,Musim Hujan,-6.3596,107.1836,False,6,0.0,0.0,1.0383
+bekasi,cikarangpusat,2022,Musim Kemarau,-6.3596,107.1836,False,6,0.0,0.0,0.415
+bekasi,cikarangselatan,2022,Musim Hujan,-6.3385,107.1279,False,6,0.0,0.0,1.0517
+bekasi,cikarangselatan,2022,Musim Kemarau,-6.3385,107.1279,False,6,0.0,0.0,0.4283
+bekasi,cikarangtimur,2022,Musim Hujan,-6.2885,107.209,False,6,0.0,0.0,0.9817
+bekasi,cikarangtimur,2022,Musim Kemarau,-6.2885,107.209,False,6,0.0,0.0,0.385
+bekasi,cikarangutara,2022,Musim Hujan,-6.2754,107.1556,False,6,0.0,0.0,0.98
+bekasi,cikarangutara,2022,Musim Kemarau,-6.2754,107.1556,False,6,0.0,0.0,0.39
+bekasi,karangbahagia,2022,Musim Hujan,-6.2172,107.197,True,6,0.0,0.0,0.9767
+bekasi,karangbahagia,2022,Musim Kemarau,-6.2172,107.197,True,6,0.0,0.0,0.3767
+bekasi,kedungwaringin,2022,Musim Hujan,-6.2516,107.2483,True,6,0.0,0.0,0.9683
+bekasi,kedungwaringin,2022,Musim Kemarau,-6.2516,107.2483,True,6,0.0,0.0,0.3783
+bekasi,muaragembong,2022,Musim Hujan,-6.0033,107.0499,True,6,0.0,0.0,1.0783
+bekasi,muaragembong,2022,Musim Kemarau,-6.0033,107.0499,True,6,0.0,0.0,0.3583
+bekasi,pebayuran,2022,Musim Hujan,-6.1593,107.2485,True,6,0.0,0.0,1.0017
+bekasi,pebayuran,2022,Musim Kemarau,-6.1593,107.2485,True,6,0.0,0.0,0.3683
+bekasi,serangbaru,2022,Musim Hujan,-6.3956,107.1143,False,6,0.0,0.0,1.1083
+bekasi,serangbaru,2022,Musim Kemarau,-6.3956,107.1143,False,6,0.0,0.0,0.4683
+bekasi,setu,2022,Musim Hujan,-6.3462,106.6764,False,6,0.0,0.0,1.115
+bekasi,setu,2022,Musim Kemarau,-6.3462,106.6764,False,6,0.0,0.0,0.4617
+bekasi,sukakarya,2022,Musim Hujan,-6.1449,107.1856,True,6,0.0,0.0,1.005
+bekasi,sukakarya,2022,Musim Kemarau,-6.1449,107.1856,True,6,0.0,0.0,0.3683
+bekasi,sukatani,2022,Musim Hujan,-6.1918,107.1559,True,6,0.0,0.0,0.9933
+bekasi,sukatani,2022,Musim Kemarau,-6.1918,107.1559,True,6,0.0,0.0,0.375
+bekasi,sukawangi,2022,Musim Hujan,-6.1187,107.091,True,6,0.0,0.0,1.03
+bekasi,sukawangi,2022,Musim Kemarau,-6.1187,107.091,True,6,0.0,0.0,0.3567
+bekasi,tambelang,2022,Musim Hujan,-6.167,107.1273,True,6,0.0,0.0,1.0117
+bekasi,tambelang,2022,Musim Kemarau,-6.167,107.1273,True,6,0.0,0.0,0.3683
+bekasi,tambunselatan,2022,Musim Hujan,-6.2571,107.0543,False,6,0.0,0.0,0.9967
+bekasi,tambunselatan,2022,Musim Kemarau,-6.2571,107.0543,False,6,0.0,0.0,0.3833
+bekasi,tambunutara,2022,Musim Hujan,-6.1927,107.0611,True,6,0.0,0.0,1.02
+bekasi,tambunutara,2022,Musim Kemarau,-6.1927,107.0611,True,6,0.0,0.0,0.3667
+bekasi,tarumajaya,2022,Musim Hujan,-6.1219,106.9975,True,6,0.0,0.0,1.04
+bekasi,tarumajaya,2022,Musim Kemarau,-6.1219,106.9975,True,6,0.0,0.0,0.3517
+jakarta utara,cilincing,2022,Musim Hujan,-6.1243,106.9421,True,6,0.0,0.0,1.0467
+jakarta utara,cilincing,2022,Musim Kemarau,-6.1243,106.9421,True,6,0.0,0.0,0.3517
+jakarta utara,kelapagading,2022,Musim Hujan,-6.161,106.9037,True,6,0.0,0.0,1.04
+jakarta utara,kelapagading,2022,Musim Kemarau,-6.161,106.9037,True,6,0.0,0.0,0.3533
+jakarta utara,koja,2022,Musim Hujan,-6.1215,106.905,True,6,1.0,0.0,1.055
+jakarta utara,koja,2022,Musim Kemarau,-6.1215,106.905,True,6,0.0,0.0,0.3533
+jakarta utara,pademangan,2022,Musim Hujan,-6.1301,106.8381,True,6,0.0,0.0,1.115
+jakarta utara,pademangan,2022,Musim Kemarau,-6.1301,106.8381,True,6,0.0,0.0,0.3467
+jakarta utara,penjaringan,2022,Musim Hujan,-6.115,106.7639,True,6,0.0,0.0,1.0567
+jakarta utara,penjaringan,2022,Musim Kemarau,-6.115,106.7639,True,6,1.0,0.0,0.3433
+jakarta utara,tanjungpriok,2022,Musim Hujan,-6.1319,106.875,True,6,0.0,0.0,1.0517
+jakarta utara,tanjungpriok,2022,Musim Kemarau,-6.1319,106.875,True,6,0.0,0.0,0.3467
+tangerang,balaraja,2022,Musim Hujan,-6.2048,106.4427,False,6,0.0,0.0,1.0517
+tangerang,balaraja,2022,Musim Kemarau,-6.2048,106.4427,False,6,0.0,0.0,0.4933
+tangerang,cikupa,2022,Musim Hujan,-6.218,106.5159,False,6,0.0,0.0,1.065
+tangerang,cikupa,2022,Musim Kemarau,-6.218,106.5159,False,6,0.0,0.0,0.4933
+tangerang,cisauk,2022,Musim Hujan,-6.3391,106.6302,False,6,0.0,0.0,1.12
+tangerang,cisauk,2022,Musim Kemarau,-6.3391,106.6302,False,6,0.0,0.0,0.5283
+tangerang,cisoka,2022,Musim Hujan,-6.2598,106.4167,False,6,0.0,0.0,1.055
+tangerang,cisoka,2022,Musim Kemarau,-6.2598,106.4167,False,6,0.0,0.0,0.5217
+tangerang,curug,2022,Musim Hujan,-6.2426,106.5661,False,6,0.0,0.0,1.045
+tangerang,curug,2022,Musim Kemarau,-6.2426,106.5661,False,6,0.0,0.0,0.4917
+tangerang,gunungkaler,2022,Musim Hujan,-6.0957,106.3742,True,6,0.0,0.0,0.9917
+tangerang,gunungkaler,2022,Musim Kemarau,-6.0957,106.3742,True,6,0.0,0.0,0.4717
+tangerang,jambe,2022,Musim Hujan,-6.3238,106.4992,False,6,0.0,0.0,1.0967
+tangerang,jambe,2022,Musim Kemarau,-6.3238,106.4992,False,6,0.0,0.0,0.5817
+tangerang,jayanti,2022,Musim Hujan,-6.2068,106.3983,False,6,0.0,0.0,1.0517
+tangerang,jayanti,2022,Musim Kemarau,-6.2068,106.3983,False,6,0.0,0.0,0.4967
+tangerang,kelapadua,2022,Musim Hujan,-6.2426,106.6094,False,6,0.0,0.0,1.0583
+tangerang,kelapadua,2022,Musim Kemarau,-6.2426,106.6094,False,6,0.0,0.0,0.48
+tangerang,kemiri,2022,Musim Hujan,-6.0878,106.4638,True,6,0.0,0.0,1.0367
+tangerang,kemiri,2022,Musim Kemarau,-6.0878,106.4638,True,6,0.0,0.0,0.4717
+tangerang,kosambi,2022,Musim Hujan,-6.0809,106.685,True,6,0.0,0.0,1.0467
+tangerang,kosambi,2022,Musim Kemarau,-6.0809,106.685,True,6,0.0,0.0,0.37
+tangerang,kresek,2022,Musim Hujan,-6.1444,106.4044,True,6,0.0,0.0,1.01
+tangerang,kresek,2022,Musim Kemarau,-6.1444,106.4044,True,6,0.0,0.0,0.4767
+tangerang,kronjo,2022,Musim Hujan,-6.0703,106.4282,True,6,0.0,0.0,1.015
+tangerang,kronjo,2022,Musim Kemarau,-6.0703,106.4282,True,6,0.0,0.0,0.47
+tangerang,legok,2022,Musim Hujan,-6.3048,106.565,False,6,0.0,0.0,1.0883
+tangerang,legok,2022,Musim Kemarau,-6.3048,106.565,False,6,0.0,0.0,0.545
+tangerang,mauk,2022,Musim Hujan,-6.058,106.5207,True,6,0.0,0.0,1.025
+tangerang,mauk,2022,Musim Kemarau,-6.058,106.5207,True,6,0.0,0.0,0.4483
+tangerang,mekarbaru,2022,Musim Hujan,-6.062,106.3871,True,6,0.0,0.0,0.9967
+tangerang,mekarbaru,2022,Musim Kemarau,-6.062,106.3871,True,6,0.0,0.0,0.465
+tangerang,pagedangan,2022,Musim Hujan,-6.2973,106.6175,False,6,0.0,0.0,1.0717
+tangerang,pagedangan,2022,Musim Kemarau,-6.2973,106.6175,False,6,0.0,0.0,0.51
+tangerang,pakuhaji,2022,Musim Hujan,-6.0602,106.6063,True,6,0.0,0.0,1.0233
+tangerang,pakuhaji,2022,Musim Kemarau,-6.0602,106.6063,True,6,0.0,0.0,0.4167
+tangerang,panongan,2022,Musim Hujan,-6.2789,106.5262,False,6,0.0,0.0,1.1
+tangerang,panongan,2022,Musim Kemarau,-6.2789,106.5262,False,6,0.0,0.0,0.5283
+tangerang,pasarkemis,2022,Musim Hujan,-6.1589,106.5525,True,6,0.0,0.0,1.0083
+tangerang,pasarkemis,2022,Musim Kemarau,-6.1589,106.5525,True,6,0.0,0.0,0.4517
+tangerang,rajeg,2022,Musim Hujan,-6.1163,106.5103,True,6,0.0,0.0,1.0183
+tangerang,rajeg,2022,Musim Kemarau,-6.1163,106.5103,True,6,0.0,0.0,0.4583
+tangerang,sepatan,2022,Musim Hujan,-6.1183,106.5801,True,6,0.0,0.0,0.995
+tangerang,sepatan,2022,Musim Kemarau,-6.1183,106.5801,True,6,0.0,0.0,0.4317
+tangerang,sepatantimur,2022,Musim Hujan,-6.1199,106.6084,True,6,0.0,0.0,0.99
+tangerang,sepatantimur,2022,Musim Kemarau,-6.1199,106.6084,True,6,0.0,0.0,0.415
+tangerang,sindangjaya,2022,Musim Hujan,-6.1689,106.4989,False,6,0.0,0.0,1.0283
+tangerang,sindangjaya,2022,Musim Kemarau,-6.1689,106.4989,False,6,0.0,0.0,0.4833
+tangerang,solear,2022,Musim Hujan,-6.3069,106.4215,False,6,0.0,0.0,1.0683
+tangerang,solear,2022,Musim Kemarau,-6.3069,106.4215,False,6,0.0,0.0,0.555
+tangerang,sukadiri,2022,Musim Hujan,-6.0699,106.559,True,6,0.0,0.0,1.0183
+tangerang,sukadiri,2022,Musim Kemarau,-6.0699,106.559,True,6,0.0,0.0,0.4333
+tangerang,sukamulya,2022,Musim Hujan,-6.1604,106.4362,True,6,0.0,0.0,1.0167
+tangerang,sukamulya,2022,Musim Kemarau,-6.1604,106.4362,True,6,0.0,0.0,0.4817
+tangerang,teluknaga,2022,Musim Hujan,-6.0499,106.6582,True,6,0.0,0.0,1.0367
+tangerang,teluknaga,2022,Musim Kemarau,-6.0499,106.6582,True,6,0.0,0.0,0.38
+tangerang,tigaraksa,2022,Musim Hujan,-6.2657,106.4673,False,6,0.0,0.0,1.0717
+tangerang,tigaraksa,2022,Musim Kemarau,-6.2657,106.4673,False,6,0.0,0.0,0.5267
+bekasi,babelan,2023,Musim Hujan,-6.1257,107.0341,True,6,1.0,1.0,1.0617
+bekasi,babelan,2023,Musim Kemarau,-6.1257,107.0341,True,6,0.0,0.0,0.2283
+bekasi,bojongmangu,2023,Musim Hujan,-6.4389,107.1778,False,6,0.0,0.0,1.0083
+bekasi,bojongmangu,2023,Musim Kemarau,-6.4389,107.1778,False,6,0.0,0.0,0.3967
+bekasi,cabangbungin,2023,Musim Hujan,-6.0781,107.1363,True,6,1.0,1.0,1.075
+bekasi,cabangbungin,2023,Musim Kemarau,-6.0781,107.1363,True,6,0.0,0.0,0.2283
+bekasi,cibarusah,2023,Musim Hujan,-6.434,107.1108,False,6,0.0,0.0,1.025
+bekasi,cibarusah,2023,Musim Kemarau,-6.434,107.1108,False,6,0.0,0.0,0.42
+bekasi,cibitung,2023,Musim Hujan,-6.2357,107.1004,True,6,1.0,1.0,1.01
+bekasi,cibitung,2023,Musim Kemarau,-6.2357,107.1004,True,6,0.0,0.0,0.2667
+bekasi,cikarangbarat,2023,Musim Hujan,-6.2973,107.0941,False,6,1.0,1.0,1.015
+bekasi,cikarangbarat,2023,Musim Kemarau,-6.2973,107.0941,False,6,0.0,0.0,0.34
+bekasi,cikarangpusat,2023,Musim Hujan,-6.3596,107.1836,False,6,0.0,0.0,0.95
+bekasi,cikarangpusat,2023,Musim Kemarau,-6.3596,107.1836,False,6,0.0,0.0,0.3133
+bekasi,cikarangselatan,2023,Musim Hujan,-6.3385,107.1279,False,6,0.0,0.0,0.9833
+bekasi,cikarangselatan,2023,Musim Kemarau,-6.3385,107.1279,False,6,0.0,0.0,0.3383
+bekasi,cikarangtimur,2023,Musim Hujan,-6.2885,107.209,False,6,1.0,0.0,0.9367
+bekasi,cikarangtimur,2023,Musim Kemarau,-6.2885,107.209,False,6,0.0,0.0,0.2683
+bekasi,cikarangutara,2023,Musim Hujan,-6.2754,107.1556,False,6,1.0,0.0,0.9733
+bekasi,cikarangutara,2023,Musim Kemarau,-6.2754,107.1556,False,6,0.0,0.0,0.2883
+bekasi,karangbahagia,2023,Musim Hujan,-6.2172,107.197,True,6,1.0,1.0,0.9633
+bekasi,karangbahagia,2023,Musim Kemarau,-6.2172,107.197,True,6,0.0,0.0,0.235
+bekasi,kedungwaringin,2023,Musim Hujan,-6.2516,107.2483,True,6,1.0,0.0,0.9467
+bekasi,kedungwaringin,2023,Musim Kemarau,-6.2516,107.2483,True,6,0.0,0.0,0.2417
+bekasi,muaragembong,2023,Musim Hujan,-6.0033,107.0499,True,6,1.0,1.0,1.0983
+bekasi,muaragembong,2023,Musim Kemarau,-6.0033,107.0499,True,6,0.0,0.0,0.2267
+bekasi,pebayuran,2023,Musim Hujan,-6.1593,107.2485,True,6,0.0,0.0,1.005
+bekasi,pebayuran,2023,Musim Kemarau,-6.1593,107.2485,True,6,0.0,0.0,0.22
+bekasi,serangbaru,2023,Musim Hujan,-6.3956,107.1143,False,6,0.0,0.0,1.0033
+bekasi,serangbaru,2023,Musim Kemarau,-6.3956,107.1143,False,6,0.0,0.0,0.385
+bekasi,setu,2023,Musim Hujan,-6.3462,106.6764,False,6,0.0,0.0,1.03
+bekasi,setu,2023,Musim Kemarau,-6.3462,106.6764,False,6,0.0,0.0,0.4
+bekasi,sukakarya,2023,Musim Hujan,-6.1449,107.1856,True,6,1.0,1.0,1.0217
+bekasi,sukakarya,2023,Musim Kemarau,-6.1449,107.1856,True,6,0.0,0.0,0.2217
+bekasi,sukatani,2023,Musim Hujan,-6.1918,107.1559,True,6,1.0,1.0,1.005
+bekasi,sukatani,2023,Musim Kemarau,-6.1918,107.1559,True,6,0.0,0.0,0.2283
+bekasi,sukawangi,2023,Musim Hujan,-6.1187,107.091,True,6,1.0,1.0,1.0567
+bekasi,sukawangi,2023,Musim Kemarau,-6.1187,107.091,True,6,0.0,0.0,0.2283
+bekasi,tambelang,2023,Musim Hujan,-6.167,107.1273,True,6,1.0,1.0,1.0333
+bekasi,tambelang,2023,Musim Kemarau,-6.167,107.1273,True,6,0.0,0.0,0.23
+bekasi,tambunselatan,2023,Musim Hujan,-6.2571,107.0543,False,6,1.0,1.0,1.01
+bekasi,tambunselatan,2023,Musim Kemarau,-6.2571,107.0543,False,6,0.0,0.0,0.3033
+bekasi,tambunutara,2023,Musim Hujan,-6.1927,107.0611,True,6,1.0,1.0,1.04
+bekasi,tambunutara,2023,Musim Kemarau,-6.1927,107.0611,True,6,0.0,0.0,0.2483
+bekasi,tarumajaya,2023,Musim Hujan,-6.1219,106.9975,True,6,1.0,1.0,1.0567
+bekasi,tarumajaya,2023,Musim Kemarau,-6.1219,106.9975,True,6,0.0,0.0,0.2233
+jakarta utara,cilincing,2023,Musim Hujan,-6.1243,106.9421,True,6,0.0,0.0,1.0717
+jakarta utara,cilincing,2023,Musim Kemarau,-6.1243,106.9421,True,6,0.0,0.0,0.225
+jakarta utara,kelapagading,2023,Musim Hujan,-6.161,106.9037,True,6,0.0,0.0,1.055
+jakarta utara,kelapagading,2023,Musim Kemarau,-6.161,106.9037,True,6,0.0,0.0,0.2367
+jakarta utara,koja,2023,Musim Hujan,-6.1215,106.905,True,6,0.0,0.0,1.085
+jakarta utara,koja,2023,Musim Kemarau,-6.1215,106.905,True,6,0.0,0.0,0.2233
+jakarta utara,pademangan,2023,Musim Hujan,-6.1301,106.8381,True,6,0.0,0.0,1.1067
+jakarta utara,pademangan,2023,Musim Kemarau,-6.1301,106.8381,True,6,0.0,0.0,0.2167
+jakarta utara,penjaringan,2023,Musim Hujan,-6.115,106.7639,True,6,0.0,0.0,1.03
+jakarta utara,penjaringan,2023,Musim Kemarau,-6.115,106.7639,True,6,0.0,0.0,0.22
+jakarta utara,tanjungpriok,2023,Musim Hujan,-6.1319,106.875,True,6,0.0,0.0,1.0817
+jakarta utara,tanjungpriok,2023,Musim Kemarau,-6.1319,106.875,True,6,0.0,0.0,0.2217
+tangerang,balaraja,2023,Musim Hujan,-6.2048,106.4427,False,6,0.0,0.0,1.0067
+tangerang,balaraja,2023,Musim Kemarau,-6.2048,106.4427,False,6,0.0,0.0,0.3583
+tangerang,cikupa,2023,Musim Hujan,-6.218,106.5159,False,6,1.0,1.0,1.005
+tangerang,cikupa,2023,Musim Kemarau,-6.218,106.5159,False,6,0.0,0.0,0.3567
+tangerang,cisauk,2023,Musim Hujan,-6.3391,106.6302,False,6,0.0,0.0,1.0267
+tangerang,cisauk,2023,Musim Kemarau,-6.3391,106.6302,False,6,0.0,0.0,0.4067
+tangerang,cisoka,2023,Musim Hujan,-6.2598,106.4167,False,6,0.0,0.0,1.0
+tangerang,cisoka,2023,Musim Kemarau,-6.2598,106.4167,False,6,0.0,0.0,0.3917
+tangerang,curug,2023,Musim Hujan,-6.2426,106.5661,False,6,0.0,0.0,0.9683
+tangerang,curug,2023,Musim Kemarau,-6.2426,106.5661,False,6,0.0,0.0,0.3367
+tangerang,gunungkaler,2023,Musim Hujan,-6.0957,106.3742,True,6,1.0,1.0,1.0017
+tangerang,gunungkaler,2023,Musim Kemarau,-6.0957,106.3742,True,6,0.0,0.0,0.2717
+tangerang,jambe,2023,Musim Hujan,-6.3238,106.4992,False,6,0.0,0.0,1.02
+tangerang,jambe,2023,Musim Kemarau,-6.3238,106.4992,False,6,0.0,0.0,0.44
+tangerang,jayanti,2023,Musim Hujan,-6.2068,106.3983,False,6,0.0,0.0,1.02
+tangerang,jayanti,2023,Musim Kemarau,-6.2068,106.3983,False,6,0.0,0.0,0.35
+tangerang,kelapadua,2023,Musim Hujan,-6.2426,106.6094,False,6,0.0,0.0,0.9783
+tangerang,kelapadua,2023,Musim Kemarau,-6.2426,106.6094,False,6,0.0,0.0,0.3233
+tangerang,kemiri,2023,Musim Hujan,-6.0878,106.4638,True,6,0.0,0.0,1.0167
+tangerang,kemiri,2023,Musim Kemarau,-6.0878,106.4638,True,6,0.0,0.0,0.275
+tangerang,kosambi,2023,Musim Hujan,-6.0809,106.685,True,6,0.0,0.0,1.0133
+tangerang,kosambi,2023,Musim Kemarau,-6.0809,106.685,True,6,0.0,0.0,0.2333
+tangerang,kresek,2023,Musim Hujan,-6.1444,106.4044,True,6,1.0,1.0,1.0067
+tangerang,kresek,2023,Musim Kemarau,-6.1444,106.4044,True,6,0.0,0.0,0.295
+tangerang,kronjo,2023,Musim Hujan,-6.0703,106.4282,True,6,1.0,1.0,1.0033
+tangerang,kronjo,2023,Musim Kemarau,-6.0703,106.4282,True,6,0.0,0.0,0.27
+tangerang,legok,2023,Musim Hujan,-6.3048,106.565,False,6,0.0,0.0,1.0067
+tangerang,legok,2023,Musim Kemarau,-6.3048,106.565,False,6,0.0,0.0,0.405
+tangerang,mauk,2023,Musim Hujan,-6.058,106.5207,True,6,0.0,0.0,1.0233
+tangerang,mauk,2023,Musim Kemarau,-6.058,106.5207,True,6,0.0,0.0,0.26
+tangerang,mekarbaru,2023,Musim Hujan,-6.062,106.3871,True,6,0.0,0.0,0.9917
+tangerang,mekarbaru,2023,Musim Kemarau,-6.062,106.3871,True,6,0.0,0.0,0.265
+tangerang,pagedangan,2023,Musim Hujan,-6.2973,106.6175,False,6,0.0,0.0,1.0033
+tangerang,pagedangan,2023,Musim Kemarau,-6.2973,106.6175,False,6,0.0,0.0,0.38
+tangerang,pakuhaji,2023,Musim Hujan,-6.0602,106.6063,True,6,1.0,1.0,1.0233
+tangerang,pakuhaji,2023,Musim Kemarau,-6.0602,106.6063,True,6,0.0,0.0,0.2433
+tangerang,panongan,2023,Musim Hujan,-6.2789,106.5262,False,6,0.0,0.0,1.0083
+tangerang,panongan,2023,Musim Kemarau,-6.2789,106.5262,False,6,0.0,0.0,0.4083
+tangerang,pasarkemis,2023,Musim Hujan,-6.1589,106.5525,True,6,1.0,1.0,0.985
+tangerang,pasarkemis,2023,Musim Kemarau,-6.1589,106.5525,True,6,0.0,0.0,0.2783
+tangerang,rajeg,2023,Musim Hujan,-6.1163,106.5103,True,6,0.0,0.0,1.0033
+tangerang,rajeg,2023,Musim Kemarau,-6.1163,106.5103,True,6,0.0,0.0,0.275
+tangerang,sepatan,2023,Musim Hujan,-6.1183,106.5801,True,6,0.0,0.0,0.9883
+tangerang,sepatan,2023,Musim Kemarau,-6.1183,106.5801,True,6,0.0,0.0,0.255
+tangerang,sepatantimur,2023,Musim Hujan,-6.1199,106.6084,True,6,0.0,0.0,0.985
+tangerang,sepatantimur,2023,Musim Kemarau,-6.1199,106.6084,True,6,0.0,0.0,0.2483
+tangerang,sindangjaya,2023,Musim Hujan,-6.1689,106.4989,False,6,0.0,0.0,1.0017
+tangerang,sindangjaya,2023,Musim Kemarau,-6.1689,106.4989,False,6,0.0,0.0,0.3183
+tangerang,solear,2023,Musim Hujan,-6.3069,106.4215,False,6,0.0,0.0,1.01
+tangerang,solear,2023,Musim Kemarau,-6.3069,106.4215,False,6,0.0,0.0,0.43
+tangerang,sukadiri,2023,Musim Hujan,-6.0699,106.559,True,6,0.0,0.0,1.02
+tangerang,sukadiri,2023,Musim Kemarau,-6.0699,106.559,True,6,0.0,0.0,0.2533
+tangerang,sukamulya,2023,Musim Hujan,-6.1604,106.4362,True,6,0.0,0.0,1.0017
+tangerang,sukamulya,2023,Musim Kemarau,-6.1604,106.4362,True,6,0.0,0.0,0.3067
+tangerang,teluknaga,2023,Musim Hujan,-6.0499,106.6582,True,6,1.0,1.0,1.02
+tangerang,teluknaga,2023,Musim Kemarau,-6.0499,106.6582,True,6,0.0,0.0,0.235
+tangerang,tigaraksa,2023,Musim Hujan,-6.2657,106.4673,False,6,1.0,1.0,0.9983
+tangerang,tigaraksa,2023,Musim Kemarau,-6.2657,106.4673,False,6,0.0,0.0,0.4033
+bekasi,babelan,2024,Musim Hujan,-6.1257,107.0341,True,6,1.0,1.0,1.03
+bekasi,babelan,2024,Musim Kemarau,-6.1257,107.0341,True,6,0.0,0.0,0.3583
+bekasi,bojongmangu,2024,Musim Hujan,-6.4389,107.1778,False,6,0.0,0.0,1.15
+bekasi,bojongmangu,2024,Musim Kemarau,-6.4389,107.1778,False,6,0.0,0.0,0.4983
+bekasi,cabangbungin,2024,Musim Hujan,-6.0781,107.1363,True,6,0.0,0.0,1.01
+bekasi,cabangbungin,2024,Musim Kemarau,-6.0781,107.1363,True,6,0.0,0.0,0.3583
+bekasi,cibarusah,2024,Musim Hujan,-6.434,107.1108,False,6,1.0,1.0,1.15
+bekasi,cibarusah,2024,Musim Kemarau,-6.434,107.1108,False,6,0.0,0.0,0.4833
+bekasi,cibitung,2024,Musim Hujan,-6.2357,107.1004,True,6,1.0,1.0,1.0
+bekasi,cibitung,2024,Musim Kemarau,-6.2357,107.1004,True,6,0.0,0.0,0.3783
+bekasi,cikarangbarat,2024,Musim Hujan,-6.2973,107.0941,False,6,1.0,1.0,1.0433
+bekasi,cikarangbarat,2024,Musim Kemarau,-6.2973,107.0941,False,6,0.0,0.0,0.3933
+bekasi,cikarangpusat,2024,Musim Hujan,-6.3596,107.1836,False,6,1.0,1.0,1.0783
+bekasi,cikarangpusat,2024,Musim Kemarau,-6.3596,107.1836,False,6,0.0,0.0,0.4067
+bekasi,cikarangselatan,2024,Musim Hujan,-6.3385,107.1279,False,6,1.0,1.0,1.075
+bekasi,cikarangselatan,2024,Musim Kemarau,-6.3385,107.1279,False,6,0.0,0.0,0.4083
+bekasi,cikarangtimur,2024,Musim Hujan,-6.2885,107.209,False,6,1.0,1.0,1.07
+bekasi,cikarangtimur,2024,Musim Kemarau,-6.2885,107.209,False,6,0.0,0.0,0.3833
+bekasi,cikarangutara,2024,Musim Hujan,-6.2754,107.1556,False,6,1.0,1.0,1.0383
+bekasi,cikarangutara,2024,Musim Kemarau,-6.2754,107.1556,False,6,0.0,0.0,0.3867
+bekasi,karangbahagia,2024,Musim Hujan,-6.2172,107.197,True,6,0.0,0.0,1.0083
+bekasi,karangbahagia,2024,Musim Kemarau,-6.2172,107.197,True,6,0.0,0.0,0.3767
+bekasi,kedungwaringin,2024,Musim Hujan,-6.2516,107.2483,True,6,0.0,0.0,1.0467
+bekasi,kedungwaringin,2024,Musim Kemarau,-6.2516,107.2483,True,6,0.0,0.0,0.3833
+bekasi,muaragembong,2024,Musim Hujan,-6.0033,107.0499,True,6,1.0,1.0,1.055
+bekasi,muaragembong,2024,Musim Kemarau,-6.0033,107.0499,True,6,0.0,0.0,0.3617
+bekasi,pebayuran,2024,Musim Hujan,-6.1593,107.2485,True,6,0.0,0.0,0.9883
+bekasi,pebayuran,2024,Musim Kemarau,-6.1593,107.2485,True,6,0.0,0.0,0.365
+bekasi,serangbaru,2024,Musim Hujan,-6.3956,107.1143,False,6,1.0,1.0,1.1067
+bekasi,serangbaru,2024,Musim Kemarau,-6.3956,107.1143,False,6,0.0,0.0,0.445
+bekasi,setu,2024,Musim Hujan,-6.3462,106.6764,False,6,1.0,1.0,1.09
+bekasi,setu,2024,Musim Kemarau,-6.3462,106.6764,False,6,0.0,0.0,0.4217
+bekasi,sukakarya,2024,Musim Hujan,-6.1449,107.1856,True,6,1.0,1.0,0.9883
+bekasi,sukakarya,2024,Musim Kemarau,-6.1449,107.1856,True,6,0.0,0.0,0.365
+bekasi,sukatani,2024,Musim Hujan,-6.1918,107.1559,True,6,1.0,1.0,0.995
+bekasi,sukatani,2024,Musim Kemarau,-6.1918,107.1559,True,6,0.0,0.0,0.3733
+bekasi,sukawangi,2024,Musim Hujan,-6.1187,107.091,True,6,1.0,1.0,1.01
+bekasi,sukawangi,2024,Musim Kemarau,-6.1187,107.091,True,6,0.0,0.0,0.3583
+bekasi,tambelang,2024,Musim Hujan,-6.167,107.1273,True,6,0.0,0.0,0.9883
+bekasi,tambelang,2024,Musim Kemarau,-6.167,107.1273,True,6,0.0,0.0,0.3683
+bekasi,tambunselatan,2024,Musim Hujan,-6.2571,107.0543,False,6,0.0,0.0,1.01
+bekasi,tambunselatan,2024,Musim Kemarau,-6.2571,107.0543,False,6,0.0,0.0,0.3783
+bekasi,tambunutara,2024,Musim Hujan,-6.1927,107.0611,True,6,1.0,1.0,1.0083
+bekasi,tambunutara,2024,Musim Kemarau,-6.1927,107.0611,True,6,0.0,0.0,0.3667
+bekasi,tarumajaya,2024,Musim Hujan,-6.1219,106.9975,True,6,1.0,1.0,1.0367
+bekasi,tarumajaya,2024,Musim Kemarau,-6.1219,106.9975,True,6,0.0,0.0,0.3567
+jakarta utara,cilincing,2024,Musim Hujan,-6.1243,106.9421,True,6,1.0,1.0,1.0517
+jakarta utara,cilincing,2024,Musim Kemarau,-6.1243,106.9421,True,6,0.0,0.0,0.355
+jakarta utara,kelapagading,2024,Musim Hujan,-6.161,106.9037,True,6,0.0,0.0,1.0433
+jakarta utara,kelapagading,2024,Musim Kemarau,-6.161,106.9037,True,6,0.0,0.0,0.3633
+jakarta utara,koja,2024,Musim Hujan,-6.1215,106.905,True,6,0.0,0.0,1.0633
+jakarta utara,koja,2024,Musim Kemarau,-6.1215,106.905,True,6,0.0,0.0,0.355
+jakarta utara,pademangan,2024,Musim Hujan,-6.1301,106.8381,True,6,0.0,0.0,1.1167
+jakarta utara,pademangan,2024,Musim Kemarau,-6.1301,106.8381,True,6,0.0,0.0,0.3583
+jakarta utara,penjaringan,2024,Musim Hujan,-6.115,106.7639,True,6,1.0,1.0,1.045
+jakarta utara,penjaringan,2024,Musim Kemarau,-6.115,106.7639,True,6,0.0,0.0,0.3583
+jakarta utara,tanjungpriok,2024,Musim Hujan,-6.1319,106.875,True,6,0.0,0.0,1.0667
+jakarta utara,tanjungpriok,2024,Musim Kemarau,-6.1319,106.875,True,6,0.0,0.0,0.3583
+tangerang,balaraja,2024,Musim Hujan,-6.2048,106.4427,False,6,0.0,0.0,1.0333
+tangerang,balaraja,2024,Musim Kemarau,-6.2048,106.4427,False,6,0.0,0.0,0.435
+tangerang,cikupa,2024,Musim Hujan,-6.218,106.5159,False,6,0.0,0.0,1.035
+tangerang,cikupa,2024,Musim Kemarau,-6.218,106.5159,False,6,0.0,0.0,0.4267
+tangerang,cisauk,2024,Musim Hujan,-6.3391,106.6302,False,6,0.0,0.0,1.1217
+tangerang,cisauk,2024,Musim Kemarau,-6.3391,106.6302,False,6,0.0,0.0,0.505
+tangerang,cisoka,2024,Musim Hujan,-6.2598,106.4167,False,6,0.0,0.0,1.08
+tangerang,cisoka,2024,Musim Kemarau,-6.2598,106.4167,False,6,0.0,0.0,0.4533
+tangerang,curug,2024,Musim Hujan,-6.2426,106.5661,False,6,0.0,0.0,1.0367
+tangerang,curug,2024,Musim Kemarau,-6.2426,106.5661,False,6,0.0,0.0,0.4283
+tangerang,gunungkaler,2024,Musim Hujan,-6.0957,106.3742,True,6,0.0,0.0,0.9883
+tangerang,gunungkaler,2024,Musim Kemarau,-6.0957,106.3742,True,6,0.0,0.0,0.4067
+tangerang,jambe,2024,Musim Hujan,-6.3238,106.4992,False,6,0.0,0.0,1.1133
+tangerang,jambe,2024,Musim Kemarau,-6.3238,106.4992,False,6,0.0,0.0,0.4967
+tangerang,jayanti,2024,Musim Hujan,-6.2068,106.3983,False,6,0.0,0.0,1.04
+tangerang,jayanti,2024,Musim Kemarau,-6.2068,106.3983,False,6,0.0,0.0,0.44
+tangerang,kelapadua,2024,Musim Hujan,-6.2426,106.6094,False,6,0.0,0.0,1.0533
+tangerang,kelapadua,2024,Musim Kemarau,-6.2426,106.6094,False,6,0.0,0.0,0.4233
+tangerang,kemiri,2024,Musim Hujan,-6.0878,106.4638,True,6,0.0,0.0,0.9883
+tangerang,kemiri,2024,Musim Kemarau,-6.0878,106.4638,True,6,0.0,0.0,0.41
+tangerang,kosambi,2024,Musim Hujan,-6.0809,106.685,True,6,0.0,0.0,1.0333
+tangerang,kosambi,2024,Musim Kemarau,-6.0809,106.685,True,6,0.0,0.0,0.3783
+tangerang,kresek,2024,Musim Hujan,-6.1444,106.4044,True,6,0.0,0.0,0.9917
+tangerang,kresek,2024,Musim Kemarau,-6.1444,106.4044,True,6,0.0,0.0,0.43
+tangerang,kronjo,2024,Musim Hujan,-6.0703,106.4282,True,6,0.0,0.0,0.9883
+tangerang,kronjo,2024,Musim Kemarau,-6.0703,106.4282,True,6,0.0,0.0,0.41
+tangerang,legok,2024,Musim Hujan,-6.3048,106.565,False,6,0.0,0.0,1.095
+tangerang,legok,2024,Musim Kemarau,-6.3048,106.565,False,6,0.0,0.0,0.4717
+tangerang,mauk,2024,Musim Hujan,-6.058,106.5207,True,6,0.0,0.0,0.99
+tangerang,mauk,2024,Musim Kemarau,-6.058,106.5207,True,6,0.0,0.0,0.3933
+tangerang,mekarbaru,2024,Musim Hujan,-6.062,106.3871,True,6,0.0,0.0,0.9883
+tangerang,mekarbaru,2024,Musim Kemarau,-6.062,106.3871,True,6,0.0,0.0,0.4
+tangerang,pagedangan,2024,Musim Hujan,-6.2973,106.6175,False,6,0.0,0.0,1.095
+tangerang,pagedangan,2024,Musim Kemarau,-6.2973,106.6175,False,6,0.0,0.0,0.465
+tangerang,pakuhaji,2024,Musim Hujan,-6.0602,106.6063,True,6,0.0,0.0,1.0017
+tangerang,pakuhaji,2024,Musim Kemarau,-6.0602,106.6063,True,6,0.0,0.0,0.3933
+tangerang,panongan,2024,Musim Hujan,-6.2789,106.5262,False,6,0.0,0.0,1.0817
+tangerang,panongan,2024,Musim Kemarau,-6.2789,106.5262,False,6,0.0,0.0,0.465
+tangerang,pasarkemis,2024,Musim Hujan,-6.1589,106.5525,True,6,0.0,0.0,0.9933
+tangerang,pasarkemis,2024,Musim Kemarau,-6.1589,106.5525,True,6,0.0,0.0,0.405
+tangerang,rajeg,2024,Musim Hujan,-6.1163,106.5103,True,6,0.0,0.0,0.9883
+tangerang,rajeg,2024,Musim Kemarau,-6.1163,106.5103,True,6,0.0,0.0,0.4133
+tangerang,sepatan,2024,Musim Hujan,-6.1183,106.5801,True,6,0.0,0.0,0.9883
+tangerang,sepatan,2024,Musim Kemarau,-6.1183,106.5801,True,6,0.0,0.0,0.395
+tangerang,sepatantimur,2024,Musim Hujan,-6.1199,106.6084,True,6,0.0,0.0,0.9917
+tangerang,sepatantimur,2024,Musim Kemarau,-6.1199,106.6084,True,6,0.0,0.0,0.39
+tangerang,sindangjaya,2024,Musim Hujan,-6.1689,106.4989,False,6,0.0,0.0,0.9967
+tangerang,sindangjaya,2024,Musim Kemarau,-6.1689,106.4989,False,6,0.0,0.0,0.4233
+tangerang,solear,2024,Musim Hujan,-6.3069,106.4215,False,6,0.0,0.0,1.1067
+tangerang,solear,2024,Musim Kemarau,-6.3069,106.4215,False,6,0.0,0.0,0.4883
+tangerang,sukadiri,2024,Musim Hujan,-6.0699,106.559,True,6,0.0,0.0,0.9917
+tangerang,sukadiri,2024,Musim Kemarau,-6.0699,106.559,True,6,0.0,0.0,0.3967
+tangerang,sukamulya,2024,Musim Hujan,-6.1604,106.4362,True,6,0.0,0.0,0.9967
+tangerang,sukamulya,2024,Musim Kemarau,-6.1604,106.4362,True,6,0.0,0.0,0.4317
+tangerang,teluknaga,2024,Musim Hujan,-6.0499,106.6582,True,6,1.0,1.0,1.0283
+tangerang,teluknaga,2024,Musim Kemarau,-6.0499,106.6582,True,6,0.0,0.0,0.38
+tangerang,tigaraksa,2024,Musim Hujan,-6.2657,106.4673,False,6,0.0,0.0,1.0767
+tangerang,tigaraksa,2024,Musim Kemarau,-6.2657,106.4673,False,6,0.0,0.0,0.4617

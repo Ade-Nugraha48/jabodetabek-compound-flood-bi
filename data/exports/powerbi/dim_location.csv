@@ -1,0 +1,59 @@
+location_id,kabupaten_kota,kecamatan,NAME_3_clean,lat,long,elevation,slope,landcover_class,is_coastal_zone
+1,bekasi,babelan,babelan,-6.1257,107.0341,3.768,0.07,Cropland,True
+2,bekasi,bojongmangu,bojongmangu,-6.4389,107.1778,48.869,0.584,Tree cover,False
+3,bekasi,cabangbungin,cabangbungin,-6.0781,107.1363,3.757,0.053,Cropland,True
+4,bekasi,cibarusah,cibarusah,-6.434,107.1108,52.034,0.394,Cropland,False
+5,bekasi,cibitung,cibitung,-6.2357,107.1004,14.027,0.106,Cropland,True
+6,bekasi,cikarangbarat,cikarangbarat,-6.2973,107.0941,29.644,0.174,Built-up,False
+7,bekasi,cikarangpusat,cikarangpusat,-6.3596,107.1836,34.68,0.347,Built-up,False
+8,bekasi,cikarangselatan,cikarangselatan,-6.3385,107.1279,41.443,0.306,Built-up,False
+9,bekasi,cikarangtimur,cikarangtimur,-6.2885,107.209,15.164,0.085,Cropland,False
+10,bekasi,cikarangutara,cikarangutara,-6.2754,107.1556,17.902,0.13,Built-up,False
+11,bekasi,karangbahagia,karangbahagia,-6.2172,107.197,10.334,0.08,Cropland,True
+12,bekasi,kedungwaringin,kedungwaringin,-6.2516,107.2483,10.722,0.076,Cropland,True
+13,bekasi,muaragembong,muaragembong,-6.0033,107.0499,1.597,0.046,Permanent water bodies,True
+14,bekasi,pebayuran,pebayuran,-6.1593,107.2485,7.055,0.061,Cropland,True
+15,bekasi,serangbaru,serangbaru,-6.3956,107.1143,47.778,0.25,Tree cover,False
+16,bekasi,setu,setu,-6.3462,106.6764,51.932,0.202,Tree cover,False
+17,bekasi,sukakarya,sukakarya,-6.1449,107.1856,5.911,0.05,Cropland,True
+18,bekasi,sukatani,sukatani,-6.1918,107.1559,9.292,0.08,Cropland,True
+19,bekasi,sukawangi,sukawangi,-6.1187,107.091,3.12,0.044,Cropland,True
+20,bekasi,tambelang,tambelang,-6.167,107.1273,5.555,0.072,Cropland,True
+21,bekasi,tambunselatan,tambunselatan,-6.2571,107.0543,20.065,0.152,Built-up,False
+22,bekasi,tambunutara,tambunutara,-6.1927,107.0611,8.214,0.091,Built-up,True
+23,bekasi,tarumajaya,tarumajaya,-6.1219,106.9975,2.309,0.051,Cropland,True
+24,jakarta utara,cilincing,cilincing,-6.1243,106.9421,3.19,0.068,Built-up,True
+25,jakarta utara,kelapagading,kelapagading,-6.161,106.9037,5.514,0.062,Built-up,True
+26,jakarta utara,koja,koja,-6.1215,106.905,3.739,0.063,Built-up,True
+27,jakarta utara,pademangan,pademangan,-6.1301,106.8381,3.198,0.104,Built-up,True
+28,jakarta utara,penjaringan,penjaringan,-6.115,106.7639,3.083,0.074,Built-up,True
+29,jakarta utara,tanjungpriok,tanjungpriok,-6.1319,106.875,4.06,0.101,Built-up,True
+30,tangerang,balaraja,balaraja,-6.2048,106.4427,20.277,0.173,Built-up,False
+31,tangerang,cikupa,cikupa,-6.218,106.5159,25.2,0.147,Built-up,False
+32,tangerang,cisauk,cisauk,-6.3391,106.6302,51.37,0.313,Tree cover,False
+33,tangerang,cisoka,cisoka,-6.2598,106.4167,26.713,0.26,Tree cover,False
+34,tangerang,curug,curug,-6.2426,106.5661,30.753,0.142,Built-up,False
+35,tangerang,gunungkaler,gunungkaler,-6.0957,106.3742,8.194,0.068,Cropland,True
+36,tangerang,jambe,jambe,-6.3238,106.4992,43.823,0.302,Tree cover,False
+37,tangerang,jayanti,jayanti,-6.2068,106.3983,18.626,0.144,Tree cover,False
+38,tangerang,kelapadua,kelapadua,-6.2426,106.6094,27.206,0.146,Built-up,False
+39,tangerang,kemiri,kemiri,-6.0878,106.4638,5.064,0.09,Cropland,True
+40,tangerang,kosambi,kosambi,-6.0809,106.685,3.034,0.058,Built-up,True
+41,tangerang,kresek,kresek,-6.1444,106.4044,11.706,0.093,Cropland,True
+42,tangerang,kronjo,kronjo,-6.0703,106.4282,4.048,0.069,Cropland,True
+43,tangerang,legok,legok,-6.3048,106.565,43.009,0.179,Tree cover,False
+44,tangerang,mauk,mauk,-6.058,106.5207,3.228,0.07,Cropland,True
+45,tangerang,mekarbaru,mekarbaru,-6.062,106.3871,4.93,0.066,Cropland,True
+46,tangerang,pagedangan,pagedangan,-6.2973,106.6175,39.721,0.198,Tree cover,False
+47,tangerang,pakuhaji,pakuhaji,-6.0602,106.6063,3.922,0.061,Cropland,True
+48,tangerang,panongan,panongan,-6.2789,106.5262,36.953,0.192,Tree cover,False
+49,tangerang,pasarkemis,pasarkemis,-6.1589,106.5525,14.061,0.127,Built-up,True
+50,tangerang,rajeg,rajeg,-6.1163,106.5103,8.659,0.105,Cropland,True
+51,tangerang,sepatan,sepatan,-6.1183,106.5801,8.849,0.052,Built-up,True
+52,tangerang,sepatantimur,sepatantimur,-6.1199,106.6084,9.449,0.066,Built-up,True
+53,tangerang,sindangjaya,sindangjaya,-6.1689,106.4989,17.038,0.132,Tree cover,False
+54,tangerang,solear,solear,-6.3069,106.4215,39.539,0.297,Tree cover,False
+55,tangerang,sukadiri,sukadiri,-6.0699,106.559,4.864,0.063,Cropland,True
+56,tangerang,sukamulya,sukamulya,-6.1604,106.4362,14.287,0.136,Cropland,True
+57,tangerang,teluknaga,teluknaga,-6.0499,106.6582,3.313,0.071,Permanent water bodies,True
+58,tangerang,tigaraksa,tigaraksa,-6.2657,106.4673,29.506,0.225,Tree cover,False
