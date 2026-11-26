@@ -96,11 +96,11 @@ CREATE TABLE IF NOT EXISTS analytics_ml_predictions (
     time_id                  INTEGER NOT NULL REFERENCES dim_time(time_id),
     actual_banjir            INTEGER,
     predicted_banjir         INTEGER NOT NULL,
-    flood_probability        DOUBLE NOT NULL,
+    risk_probability         DOUBLE NOT NULL,
     predicted_trigger_label  INTEGER NOT NULL,
     predicted_scenario       VARCHAR NOT NULL,
     decision_threshold       DOUBLE NOT NULL,
-    model_name               VARCHAR NOT NULL,
+    model_version            VARCHAR NOT NULL,
     run_date                 DATE NOT NULL
 );
 
@@ -233,7 +233,7 @@ CREATE INDEX IF NOT EXISTS idx_ml_pred_loc_time
     ON analytics_ml_predictions (location_id, time_id);
 
 CREATE INDEX IF NOT EXISTS idx_ml_pred_banjir_prob
-    ON analytics_ml_predictions (predicted_banjir, flood_probability DESC);
+    ON analytics_ml_predictions (predicted_banjir, risk_probability DESC);
 
 CREATE INDEX IF NOT EXISTS idx_vuln_cluster_loc
     ON analytics_vulnerability_clusters (location_id, cluster_id);
