@@ -88,10 +88,16 @@ erDiagram
     analytics_vulnerability_clusters {
         INTEGER cluster_record_id PK
         INTEGER location_id FK
-        DOUBLE compound_risk_avg
+        DOUBLE elevation
+        DOUBLE slope
+        DOUBLE ndvi
+        DOUBLE avg_rainfall_mean
+        DOUBLE max_rainfall_mean
+        DOUBLE compound_risk_score_mean
         INTEGER total_banjir
         INTEGER cluster_id
-        VARCHAR cluster_label
+        VARCHAR vulnerability_tier
+        DOUBLE centroid_distance
         VARCHAR clustering_algorithm
         DOUBLE silhouette_score
         DATE run_date

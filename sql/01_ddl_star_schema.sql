@@ -109,23 +109,21 @@ CREATE TABLE IF NOT EXISTS analytics_ml_predictions (
 -- Output hasil clustering zonasi kerentanan wilayah (per kecamatan).
 -- -----------------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS analytics_vulnerability_clusters (
-    cluster_record_id     INTEGER PRIMARY KEY,
-    location_id           INTEGER NOT NULL REFERENCES dim_location(location_id),
-    avg_rainfall_mean     DOUBLE,
-    max_rainfall_peak     DOUBLE,
-    sea_level_max_peak    DOUBLE,
-    sea_level_mean_avg    DOUBLE,
-    soil_moisture_avg     DOUBLE,
-    ndvi_avg              DOUBLE,
-    rain_index_avg        DOUBLE,
-    sea_index_avg         DOUBLE,
-    compound_risk_avg     DOUBLE,
-    total_banjir          INTEGER,
-    cluster_id            INTEGER NOT NULL,
-    cluster_label         VARCHAR NOT NULL,
-    clustering_algorithm  VARCHAR NOT NULL,
-    silhouette_score      DOUBLE,
-    run_date              DATE NOT NULL
+    cluster_record_id         INTEGER PRIMARY KEY,
+    location_id               INTEGER NOT NULL REFERENCES dim_location(location_id),
+    elevation                 DOUBLE NOT NULL,
+    slope                     DOUBLE NOT NULL,
+    ndvi                      DOUBLE NOT NULL,
+    avg_rainfall_mean         DOUBLE NOT NULL,
+    max_rainfall_mean         DOUBLE NOT NULL,
+    compound_risk_score_mean  DOUBLE NOT NULL,
+    total_banjir              INTEGER NOT NULL,
+    cluster_id                INTEGER NOT NULL,
+    vulnerability_tier        VARCHAR NOT NULL,
+    centroid_distance         DOUBLE NOT NULL,
+    clustering_algorithm      VARCHAR NOT NULL,
+    silhouette_score          DOUBLE,
+    run_date                  DATE NOT NULL
 );
 
 -- -----------------------------------------------------------------------------
