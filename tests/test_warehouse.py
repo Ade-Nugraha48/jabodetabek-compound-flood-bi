@@ -11,6 +11,19 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 WAREHOUSE_DIR = BASE_DIR / "data" / "warehouse"
 DB_PATH = WAREHOUSE_DIR / "compound_flood_dw.duckdb"
 PARQUET_DIR = WAREHOUSE_DIR / "fact_partitioned"
+POWERBI_EXPORT_DIR = BASE_DIR / "data" / "exports" / "powerbi"
+
+VALID_VULNERABILITY_TIERS = {"Rendah", "Sedang", "Tinggi", "Sangat Tinggi"}
+POWERBI_CSV_FILES = [
+    "dim_location.csv",
+    "dim_time.csv",
+    "fact_compound_flood_observations.csv",
+    "analytics_ml_predictions.csv",
+    "analytics_vulnerability_clusters.csv",
+    "analytics_anomaly_logs.csv",
+    "vw_dashboard_risk_summary.csv",
+    "vw_monthly_trend.csv",
+]
 
 
 @pytest.fixture(scope="module")
@@ -94,3 +107,46 @@ def test_views_and_ml_predictions_queryable(
     total = dw_conn.execute(f"SELECT COUNT(*) FROM {relation_name};").fetchone()[0]
     assert len(rows) > 0
     assert total > 0
+
+
+def test_vulnerability_clusters_valid(dw_conn: duckdb.DuckDBPyConnection) -> None:
+    """Memastikan analytics_vulnerability_clusters memiliki 58 baris & tier valid."""
+    total = dw_conn.execute(
+        "SELECT COUNT(*) FROM analytics_vulnerability_clusters;"
+    ).fetchone()[0]
+    dim_loc_count = dw_conn.execute("SELECT COUNT(*) FROM dim_location;").fetchone()[0]
+    tiers = {
+        row[0]
+        for row in dw_conn.execute(
+            "SELECT DISTINCT vulnerability_tier FROM analytics_vulnerability_clusters;"
+        ).fetchall()
+    }
+    assert total == 58
+    assert total == dim_loc_count
+    assert tiers.issubset(VALID_VULNERABILITY_TIERS)
+    assert tiers == VALID_VULNERABILITY_TIERS
+
+
+def test_anomaly_logs_valid(dw_conn: duckdb.DuckDBPyConnection) -> None:
+    """Memastikan analytics_anomaly_logs memiliki 2.088 baris dan >= 1 anomali."""
+    total = dw_conn.execute(
+        "SELECT COUNT(*) FROM analytics_anomaly_logs;"
+    ).fetchone()[0]
+    anomaly_count = dw_conn.execute(
+        "SELECT COUNT(*) FROM analytics_anomaly_logs WHERE is_anomaly = TRUE;"
+    ).fetchone()[0]
+    assert total == 2088
+    assert anomaly_count >= 1
+
+
+@pytest.mark.parametrize("csv_name", POWERBI_CSV_FILES)
+def test_powerbi_exports_exist_and_nonempty(csv_name: str) -> None:
+    """Memastikan seluruh 8 file CSV ekspor Power BI tersedia dan tidak kosong."""
+    csv_path = POWERBI_EXPORT_DIR / csv_name
+    assert csv_path.is_file(), f"File ekspor Power BI tidak ditemukan: {csv_path}"
+    assert csv_path.stat().st_size > 0, f"File ekspor Power BI kosong: {csv_path}"
+    with csv_path.open("r", encoding="utf-8") as fh:
+        lines = [next(fh, None) for _ in range(2)]
+    assert lines[0] is not None and lines[1] is not None, (
+        f"File ekspor Power BI tidak memiliki baris data: {csv_path}"
+    )

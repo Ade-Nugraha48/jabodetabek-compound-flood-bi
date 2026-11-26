@@ -135,18 +135,23 @@ jabodetabek-compound-flood-bi/
 ├── data/
 │   ├── raw/                  # Dokumentasi 3 dataset mentah Kaggle (Bronze)
 │   ├── staging/              # dataset_compound_flood_ready.csv (Silver)
-│   └── warehouse/            # compound_flood_dw.duckdb & fact_partitioned/ (Gold)
+│   ├── warehouse/            # compound_flood_dw.duckdb & fact_partitioned/ (Gold)
+│   └── exports/powerbi/      # 8 CSV siap import ke Power BI Desktop
 ├── notebooks/                # Eksplorasi & prototipe ETL/ML awal
 ├── sql/
 │   ├── 01_ddl_star_schema.sql
 │   └── 02_views_analytics.sql
 ├── scripts/
-│   └── load_warehouse.py     # Loader Star Schema, SQL Views, & ekspor Parquet
+│   ├── load_warehouse.py     # Loader Star Schema, SQL Views, & ekspor Parquet
+│   └── export_for_powerbi.py # Ekspor tabel, views, & output ML ke CSV Power BI
 ├── ml/
-│   └── train_and_predict.py  # Pipeline Two-Stage Random Forest + Rule-Based
-├── dashboard/                # Aset & implementasi BI Dashboard
+│   ├── train_and_predict.py  # Pipeline Two-Stage Random Forest + Rule-Based
+│   ├── run_clustering.py     # K-Means clustering 4 tier kerentanan wilayah
+│   └── run_anomaly_detection.py # Isolation Forest deteksi anomali ekstrem
+├── dashboard/
+│   └── POWERBI_GUIDE.md      # Panduan koneksi, relasi Star Schema, & visual Power BI
 ├── tests/
-│   └── test_warehouse.py     # Validasi integritas DW dengan pytest
+│   └── test_warehouse.py     # Validasi integritas DW, ML, & ekspor CSV (pytest)
 ├── ARCHITECTURE.md
 ├── CONTRIBUTING.md
 └── requirements.txt
@@ -164,27 +169,27 @@ Disarankan menggunakan virtual environment (`.venv`), lalu instal seluruh depend
 pip install -r requirements.txt
 ```
 
-### 2. Membangun Data Warehouse & Ekspor Parquet
+### 2. Urutan Eksekusi *End-to-End Pipeline*
 
-Memuat dimensi (`dim_location`, `dim_time`), tabel fakta (`fact_compound_flood_observations`), *analytical views*, dan partisi Parquet tahunan ke `data/warehouse/`:
+Jalankan seluruh tahapan secara berurutan dari root repositori:
 
 ```bash
+# 1. Muat Data Warehouse DuckDB, SQL Views, & ekspor Parquet terpartisi
 python scripts/load_warehouse.py
-```
 
-### 3. Menjalankan Pipeline Machine Learning (Two-Stage)
-
-Mengambil data latih pesisir (`elevation <= 15.0`) dari view `vw_ml_coastal_dataset`, melatih model Two-Stage, dan menyimpan hasil prediksi ke tabel `analytics_ml_predictions`:
-
-```bash
+# 2. Latih model Two-Stage Flood Prediction & simpan ke analytics_ml_predictions
 python ml/train_and_predict.py
-```
 
-### 4. Menjalankan Pengujian Data (`pytest`)
+# 3. Jalankan K-Means Clustering (4 tier kerentanan) -> analytics_vulnerability_clusters
+python ml/run_clustering.py
 
-Memverifikasi integritas jumlah baris, *foreign key*, partisi Parquet, SQL views, dan tabel prediksi:
+# 4. Jalankan Isolation Forest Anomaly Detection -> analytics_anomaly_logs
+python ml/run_anomaly_detection.py
 
-```bash
+# 5. Ekspor seluruh tabel, views, & hasil ML ke CSV siap Power BI
+python scripts/export_for_powerbi.py
+
+# 6. Jalankan seluruh suite pengujian integritas data
 pytest -v
 ```
 
@@ -194,3 +199,4 @@ pytest -v
 
 - [ARCHITECTURE.md](ARCHITECTURE.md) — Gambaran arsitektur sistem, Medallion layer, dan struktur tim.
 - [CONTRIBUTING.md](CONTRIBUTING.md) — Standar engineering, pemodelan data, validasi, serta konvensi commit Git.
+- [dashboard/POWERBI_GUIDE.md](dashboard/POWERBI_GUIDE.md) — Panduan memuat CSV, konfigurasi relasi Star Schema di Model View, dan rekomendasi 4 visual utama Power BI.
