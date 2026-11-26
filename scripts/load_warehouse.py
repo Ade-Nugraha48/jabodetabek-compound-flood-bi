@@ -11,6 +11,7 @@ import pandas as pd
 BASE_DIR = Path(__file__).resolve().parent.parent
 STAGING_CSV = BASE_DIR / "data" / "staging" / "dataset_compound_flood_ready.csv"
 DDL_PATH = BASE_DIR / "sql" / "01_ddl_star_schema.sql"
+VIEWS_PATH = BASE_DIR / "sql" / "02_views_analytics.sql"
 WAREHOUSE_DIR = BASE_DIR / "data" / "warehouse"
 DB_PATH = WAREHOUSE_DIR / "compound_flood_dw.duckdb"
 PARQUET_DIR = WAREHOUSE_DIR / "fact_partitioned"
@@ -141,10 +142,11 @@ def build_fact_observations(
 def load_warehouse(
     staging_csv: Path = STAGING_CSV,
     ddl_path: Path = DDL_PATH,
+    views_path: Path = VIEWS_PATH,
     db_path: Path = DB_PATH,
     parquet_dir: Path = PARQUET_DIR,
 ) -> dict[str, int]:
-    """Memuat Star Schema ke DuckDB dan mengekspor Parquet terpartisi per tahun."""
+    """Memuat Star Schema, SQL Views ke DuckDB, dan mengekspor Parquet terpartisi."""
     df = pd.read_csv(staging_csv)
     df["kabupaten_kota"] = df["kabupaten_kota"].astype(str).str.strip().str.lower()
     df["kecamatan"] = df["kecamatan"].astype(str).str.strip().str.lower()
@@ -156,10 +158,18 @@ def load_warehouse(
 
     db_path.parent.mkdir(parents=True, exist_ok=True)
     ddl_sql = ddl_path.read_text(encoding="utf-8")
+    views_sql = views_path.read_text(encoding="utf-8")
 
     con = duckdb.connect(str(db_path))
     try:
-        # Rebuild schema secara idempoten dengan urutan DROP terbalik (child -> parent)
+        # Rebuild views & schema secara idempoten dengan urutan DROP terbalik
+        for view in [
+            "vw_monthly_trend",
+            "vw_dashboard_risk_summary",
+            "vw_ml_coastal_dataset",
+        ]:
+            con.execute(f"DROP VIEW IF EXISTS {view};")
+
         for table in [
             "analytics_anomaly_logs",
             "analytics_vulnerability_clusters",
@@ -182,6 +192,8 @@ def load_warehouse(
         con.execute(
             "INSERT INTO fact_compound_flood_observations SELECT * FROM tmp_fact_obs;"
         )
+
+        con.execute(views_sql)
 
         if parquet_dir.exists():
             shutil.rmtree(parquet_dir)
